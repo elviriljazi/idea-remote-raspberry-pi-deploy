@@ -5,7 +5,7 @@ IDEA_VERSION="2022.2.2"
 # If you're using another version of IDEA, you'll have to change this to the correspond version
 # More info: https://github.com/JetBrains/JetBrainsRuntime#releases
 # Make sure you're installing for the aarch64.
-JBR_AARCH64_URL="https://cache-redirector.jetbrains.com/intellij-jbr/jbr-11_0_14_1-linux-aarch64-b1751.46.tar.gz"
+JBR_AARCH64_URL="https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-17.0.4-linux-aarch64-b469.53.tar.gz"
 
 mkdir -p ~/.cache/JetBrains/RemoteDev/dist
 
