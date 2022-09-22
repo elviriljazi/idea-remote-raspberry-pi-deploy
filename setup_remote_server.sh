@@ -1,6 +1,6 @@
 #!/bin/sh
 
-IDEA_VERSION="2022.1.3"
+IDEA_VERSION="2022.3.2"
 
 # If you're using another version of IDEA, you'll have to change this to the correspond version
 # More info: https://github.com/JetBrains/JetBrainsRuntime#releases
@@ -26,8 +26,7 @@ tar -xvf ~/.cache/JetBrains/RemoteDev/dist/jbr.tar.gz -C ~/.cache/JetBrains/Remo
 rm -r ~/.cache/JetBrains/RemoteDev/dist/jbr.tar.gz
 
 echo "Installing OpenJDK 11"
-sudo apt-get update -y
-sudo apt-get install openjdk-11-jdk -y
+sudo apt-get update -ysudo apt-get install openjdk-11-jdk -y
 
 echo "Success! Now, you can launch the remote server by executing \"~/.cache/JetBrains/RemoteDev/dist/idea-$IDEA_VERSION/bin/remote-dev-server.sh run <your project's dir>\""
 echo "Also, if you want to leave it running, take a look at systemd."
