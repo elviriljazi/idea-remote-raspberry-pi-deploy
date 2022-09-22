@@ -1,6 +1,6 @@
 #!/bin/sh
 
-IDEA_VERSION="2022.3.2"
+IDEA_VERSION="2022.2.2"
 
 # If you're using another version of IDEA, you'll have to change this to the correspond version
 # More info: https://github.com/JetBrains/JetBrainsRuntime#releases
